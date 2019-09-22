@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using GraphQLAspNetTesting.Data;
+using GraphQLAspNetTesting.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -22,6 +19,8 @@ namespace GraphQLAspNetTesting
                 //options.UseSqlServer("")
                 options.UseInMemoryDatabase("GraphQlTesting")
                 );
+
+            services.AddSingleton<ProductRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

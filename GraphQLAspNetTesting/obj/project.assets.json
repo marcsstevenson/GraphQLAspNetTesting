@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "GraphQL/2.4.0": {
+      "GraphQL/2.3.0": {
         "type": "package",
         "dependencies": {
           "GraphQL-Parser": "3.0.0",
@@ -4604,14 +4604,14 @@
     }
   },
   "libraries": {
-    "GraphQL/2.4.0": {
-      "sha512": "TMCyq9hB4rEyjZrI61BCtFIRUYfV+c3WrydeWefg4mOn4kVNRPDHTb2KtZrWbIlDriY6u5Dze0FkpXs4RlYVzQ==",
+    "GraphQL/2.3.0": {
+      "sha512": "Qrw7SsO+qhglOqBJHN+c7uHr55SshMiws/CMLCh7k8pv522T9jJR21RdjHwD11iBODeLqcivbvGHS8vSNbwt8Q==",
       "type": "package",
-      "path": "graphql/2.4.0",
+      "path": "graphql/2.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "graphql.2.4.0.nupkg.sha512",
+        "graphql.2.3.0.nupkg.sha512",
         "graphql.nuspec",
         "lib/net45/GraphQL.dll",
         "lib/netstandard1.3/GraphQL.dll",
@@ -12513,7 +12513,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "GraphQL >= 2.4.0",
       "GraphQL.Server.Transports.AspNetCore >= 3.4.0",
       "GraphQL.Server.Ui.Playground >= 3.4.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
@@ -12566,10 +12565,6 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
-          "GraphQL": {
-            "target": "Package",
-            "version": "[2.4.0, )"
-          },
           "GraphQL.Server.Transports.AspNetCore": {
             "target": "Package",
             "version": "[3.4.0, )"
